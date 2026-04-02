@@ -1,3 +1,3 @@
-# UnderDev AI-Powered Undergraduate Developers Productivity System
+# UnderDev
 
 :construction: Working on progress, refer the proposal for project overview
