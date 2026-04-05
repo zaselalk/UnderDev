@@ -1,0 +1,6 @@
+# JetBrains IDE
+.idea/*
+!.idea/modules.xml
+!.idea/vcs.xml
+!.idea/*.iml
+!.idea/runConfigurations/
