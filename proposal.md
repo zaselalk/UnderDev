@@ -26,20 +26,20 @@ DevFlow is a full-stack productivity system designed for undergraduate developer
 
 ### Backend
 
-* [ ] Initialize Spring Boot project
-* [ ] Add dependencies (Web, JPA, Security)
-* [ ] Setup project structure (controller, service, repository, dto)
+* [x] Initialize Spring Boot project
+* [x] Add dependencies (Web, JPA, Security)
+* [x] Setup project structure (controller, service, repository, dto)
 
 ### Frontend
 
-* [ ] Install Angular CLI
-* [ ] Create Angular project
-* [ ] Setup folder structure (core, shared, features)
+* [x] Install Angular CLI
+* [x] Create Angular project
+* [x] Setup folder structure (core, shared, features)
 
 ### Goal
 
-* [ ] Backend running on `localhost:8080`
-* [ ] Frontend running on `localhost:4200`
+* [x] Backend running on `localhost:8080`
+* [x] Frontend running on `localhost:4200`
 
 
 ## ✅ Week 2: Authentication System
