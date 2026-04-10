@@ -1,8 +1,11 @@
 package com.zasela.api.controllers;
 
+import com.zasela.api.dto.CreateUserRequest;
 import com.zasela.api.entities.User;
 import com.zasela.api.services.UserService;
+import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -28,9 +31,8 @@ public class UserController {
     }
 
     @PostMapping
-    public User save(@RequestBody User user) {
-
-        return userService.createUser(user);
+    public ResponseEntity<User> save(@Valid @RequestBody CreateUserRequest request) {
+        return ResponseEntity.ok(userService.createUser(request));
     }
 
     @DeleteMapping
