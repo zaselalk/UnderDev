@@ -46,7 +46,7 @@ DevFlow is a full-stack productivity system designed for undergraduate developer
 
 ### Backend
 
-* [ ] Implement user entity
+* [x] Implement user entity
 * [ ] Setup JWT authentication
 * [ ] Create login/register APIs
 * [ ] Encrypt passwords using BCrypt
