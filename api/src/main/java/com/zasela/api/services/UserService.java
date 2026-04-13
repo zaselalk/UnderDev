@@ -18,10 +18,10 @@ public class UserService {
 
     public User createUser(@Valid CreateUserRequest request) {
         User userEntity = new User();
-        userEntity.setFullName(request.getFullName());
-        userEntity.setEmail(request.getEmail());
-        userEntity.setPassword(request.getPassword());
-        userEntity.setUsername(request.getUsername());
+        userEntity.setFullName(request.fullName());
+        userEntity.setEmail(request.email());
+        userEntity.setPassword(request.password());
+        userEntity.setUsername(request.username());
         userEntity.setRole("user");
         return userRepository.save(userEntity);
     }
